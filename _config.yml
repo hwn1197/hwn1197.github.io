@@ -29,7 +29,7 @@ description:           >
  I am a student from Busan studying data analytics
 
 # A shorter description for the sidebar.
-tagline:               데이터 분석 공부
+tagline:               데이터 분석 공부 Data Analytics
 
 # A list of keywords for your blog
 keywords:              []
@@ -37,25 +37,24 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/profile3.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <HanWon > <Nam>
-  email:               <skagksdnjs@naver.com>
+  name:                HanWon Nam
+  email:               skagksdnjs@naver.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Analysis
+    url:               /analysis/
+  - title:             Studies
+    url:               /studies/
   - title:             About
     url:               /about/
-
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
@@ -88,7 +87,7 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/black_sky2.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -134,11 +133,11 @@ defaults:
       layout:          plain
       sitemap:         false
 
-  # # You can use the following to enable comments on all posts.
-  # - scope:
-  #     type:            posts
-  #   values:
-  #     comments:        true
+  # # You can use the following to enable comments on all posts.z
+  - scope:
+       type:            posts.z
+    values:
+       comments:        true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
