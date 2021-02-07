@@ -3,7 +3,11 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
+<<<<<<< HEAD
 url:                   https://hwn1197.github.io
+=======
+url:                    https://hwn1197.github.io
+>>>>>>> 535f17d7c5a1b72132d09fbb17edfd77d985244b
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -29,7 +33,11 @@ description:           >
  I am a student from Busan studying data analytics
 
 # A shorter description for the sidebar.
+<<<<<<< HEAD
 tagline:               데이터 분석 공부 Data Analytics
+=======
+tagline:               데이터 분석 공부
+>>>>>>> 535f17d7c5a1b72132d09fbb17edfd77d985244b
 
 # A list of keywords for your blog
 keywords:              []
@@ -79,8 +87,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9.0.0-rc.6
+# theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
