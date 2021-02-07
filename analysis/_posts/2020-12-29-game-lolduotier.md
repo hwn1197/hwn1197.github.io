@@ -1,6 +1,8 @@
 ---
-layout: blog
+layout: post
 title: 리그오브레전드 정글 미드 듀오 티어
+image: 
+  path: /assets/img/lol.jpg
 description: > 
  리그오브레전드 정글 미드 듀오 승률계산
 hide_description: true
